@@ -24,9 +24,9 @@ watch(
 );
 
 const getGuardImg = (type: string) => {
-  if (type === '总督') return '/guard-1.png';
-  else if (type === '提督') return '/guard-2.png';
-  else return '/guard-3.png';
+  if (type === '总督') return 'http://139.9.193.25:19514/images/guard-1.png';
+  else if (type === '提督') return 'http://139.9.193.25:19514/images/guard-2.png';
+  else return 'http://139.9.193.25:19514/images/guard-3.png';
 };
 </script>
 
