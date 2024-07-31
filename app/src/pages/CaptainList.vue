@@ -53,11 +53,11 @@ const getGuardImg = (type: string) => {
           </td>
           <td text="center">
             <div flex="~" items-center justify-center>
-              <img
-                :src="getGuardImg(cap.type)"
-                :alt="cap.type"
-                class="h-[2em] lt-md:h-[1.5em] select-none mr1"
-              />
+              // <img
+              //   :src="getGuardImg(cap.type)"
+              //   :alt="cap.type"
+              //   class="h-[2em] lt-md:h-[1.5em] select-none mr1"
+              // />
               <span font-light w-8>{{ cap.type }}</span>
             </div>
           </td>
