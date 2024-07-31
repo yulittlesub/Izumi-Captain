@@ -6,7 +6,7 @@ import CaptainList from './pages/CaptainList.vue';
 import CaptainSummary from './pages/CaptainSummary.vue';
 
 export const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
