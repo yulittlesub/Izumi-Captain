@@ -52,6 +52,7 @@ const getGuardImg = (type: string) => {
             }}</router-link>
           </td>
           <td text="center">
+            <div flex="~" items-center justify-center>
               <span font-light w-8>{{ cap.type }}</span>
             </div>
           </td>
