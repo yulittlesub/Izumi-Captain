@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "vite build app",
+    "build": "vite build app --base /Izumi-Captain/",
     "dev": "vite app",
     "format": "prettier --write app/**/*.{ts,vue}",
     "preview": "vite preview app",
